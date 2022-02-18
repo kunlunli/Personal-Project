@@ -7,8 +7,8 @@ I made this APP due to an oppotunity given by my first company-OPPO. In the firs
 ## Login procedure
 I designed a login system which support loging in or signing up with username and password. As it shows in the below pictures.
 
-<center class="half">
-    <image src="https://github.com/kunlunli/Personal-Project/blob/main/Snake_App/images/login.jpg?raw=true" >
-    <image src="https://github.com/kunlunli/Personal-Project/blob/main/Snake_App/images/sign-up.jpg?raw=true" >
+<figure class="half">
+    <image src="https://github.com/kunlunli/Personal-Project/blob/main/Snake_App/images/login.jpg?raw=true" width=300>
+    <image src="https://github.com/kunlunli/Personal-Project/blob/main/Snake_App/images/sign-up.jpg?raw=true" witdth=300>
 
-</center>
+</figure>
