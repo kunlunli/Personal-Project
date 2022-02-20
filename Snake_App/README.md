@@ -5,7 +5,7 @@ I made this APP due to an opportunity given by my first company-OPPO. In the fir
 
 # Main function description #
 
-## Login procedure ## 
+## 1.Login procedure ## 
 
 I designed a login system which support logging in or signing up with username and password. As it shows in the below pictures.
 
@@ -16,11 +16,11 @@ I designed a login system which support logging in or signing up with username a
 
 | Function                       | Description                                                  |
 | :----------------------------- | ------------------------------------------------------------ |
-| **Log in**                     | Use username and password to log in. I don't have any server so I store all the users in local memory. |
+| **Log in**                     | Use username and password to log in. I don't have any server so I store all the users info in local memory. |
 | **Sign up**                   | Use username, password and e-mail to create a new account.   |
-| **Remember Username and password** | Remember the username logged in last time.                   |
+| **Remember Username and password** | Remember the username logged in the last time.             |
 
-## Home page ##
+## 2.Home page ##
 
 <figure>
 	<image src="https://github.com/kunlunli/Personal-Project/blob/main/Snake_App/images/home.jpg?raw=true" width=400>
@@ -32,11 +32,31 @@ I designed a login system which support logging in or signing up with username a
 | Innovation mode | A biggest different part from the classic Snake game.  details are as follows. |
 | Setting | Used to adjust some settings for users |
 
-## Normal mode ##
+
+## 3.Normal mode ##
 
 | Function  | UI                                                           | Description                                                  |
 | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| In game   | ![](https://github.com/kunlunli/Personal-Project/blob/main/Snake_App/images/normal-mode.jpg?raw=true) | Use the roulette to control the snake's direction. Other Snakes are all run by algorithms automatically. |
+| In game   | ![](https://github.com/kunlunli/Personal-Project/blob/main/Snake_App/images/normal-mode.jpg?raw=true) | Use the roulette to control the snake's direction. Other Snakes are all run by algorithms automatically.  User's current score is shown around the top left. |
 | Game over | ![](https://github.com/kunlunli/Personal-Project/blob/main/Snake_App/images/normal-over.jpg?raw=true) | The user will lose when touching any snake's body or the edge of the map. |
-| Palse     | ![](https://github.com/kunlunli/Personal-Project/blob/main/Snake_App/images/normal-palse.jpg?raw=true) | Double clicking the screen can stop the game. User can save the game or exit the game directly. |
+| Palse     | ![](https://github.com/kunlunli/Personal-Project/blob/main/Snake_App/images/normal-palse.jpg?raw=true) | Double clicking the screen can stop the game. User can save the game or exit the game directly.  The current score is also shown. |
+
+
+## 4.Innovation mode ##
+
+### How to play ###
+The innovation mode requires users to pass three levels to win the game. In every level, the user need to get scores by eating the "food".  Only that the food is different from the classic snake game. The Innovation mode is actually similar to the work flow of a programmer. The details are follows:
+
+- The Snake actually symbolizes a programmer who needs to keep fixing bugs or completing PM's requirements. 
+- One kind of the food actually symbolizes the bugs that a programmer may encounter everyday. Besides, this kind of food changes over time. The food's size will keep growing, the color will turn from blue to yellow and eventually become red. This progress actually symbolizes that the urgency of a bug will change over time. In the beginning, maybe it's only a insignificant error. But it will become more and more serious if we ignore it and eventually we need to solve it in a limited time. In the game , if the "food" turns to red and we didn't eat it in a limited time, the user's score will be deducted.
+- The other kind of "food" symbolizes the product requirements made by the the PM.  Similarly, the size and color of this food is also  changing all the time. The progress actually symbolizes the urgency of a requirement is also changing all the time.  If a programmer can't arrange all the requirements, he may need to work very hard to consume them before the deadline eventually. Similarly, if  the player doesn't consume the "food" in time, he will lose some points.
+- The skeletons wandering in the map symbolize the dangers that may happen to a programmer(Like the heart disease). Touching the skeleton will also deduct the player's points.
+
+### Three levels ###
+
+| Level   | UI   | Time limit | Needed Score |
+| ------- | ---- | ---------- | ------------ |
+| level 1 |  | 30s        | 100          |
+| level 2 |      | 30s        | 120          |
+| level 3 |      | 30         | 130          |
 
