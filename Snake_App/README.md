@@ -51,12 +51,33 @@ The innovation mode requires users to pass three levels to win the game. In ever
 - One kind of the food actually symbolizes the bugs that a programmer may encounter everyday. Besides, this kind of food changes over time. The food's size will keep growing, the color will turn from blue to yellow and eventually become red. This progress actually symbolizes that the urgency of a bug will change over time. In the beginning, maybe it's only a insignificant error. But it will become more and more serious if we ignore it and eventually we need to solve it in a limited time. In the game , if the "food" turns to red and we didn't eat it in a limited time, the user's score will be deducted.
 - The other kind of "food" symbolizes the product requirements made by the the PM.  Similarly, the size and color of this food is also  changing all the time. The progress actually symbolizes the urgency of a requirement is also changing all the time.  If a programmer can't arrange all the requirements, he may need to work very hard to consume them before the deadline eventually. Similarly, if  the player doesn't consume the "food" in time, he will lose some points.
 - The skeletons wandering in the map symbolize the dangers that may happen to a programmer(Like the heart disease). Touching the skeleton will also deduct the player's points.
+- The player use the roulette to change the direction and use the speeding button to speed up.
 
 ### Three levels ###
 
 | Level   | UI   | Time limit | Needed Score |
 | ------- | ---- | ---------- | ------------ |
-| level 1 |  | 30s        | 100          |
-| level 2 |      | 30s        | 120          |
-| level 3 |      | 30         | 130          |
+| level 1 | ![](https://github.com/kunlunli/Personal-Project/blob/main/Snake_App/images/level1?raw=true) | 30s        | 100          |
+| level 2 | ![](https://github.com/kunlunli/Personal-Project/blob/main/Snake_App/images/level2.jpg?raw=true) | 30s        | 120          |
+| level 3 | ![](https://github.com/kunlunli/Personal-Project/blob/main/Snake_App/images/level3.jpg?raw=true) | 30         | 130          |
+
+## 5.History ##
+
+History page is used to store the user's records. The records are sorted by scores.
+
+<figure>
+	<image src="https://github.com/kunlunli/Personal-Project/blob/main/Snake_App/images/history.jpg?raw=true" width=400>
+</figure>
+
+## 6.Setting ##
+
+<figure>
+	<image src="https://github.com/kunlunli/Personal-Project/blob/main/Snake_App/images/setting.jpg?raw=true" width=400>
+</figure>
+
+| Function          | Description                                                  |
+| ----------------- | ------------------------------------------------------------ |
+| Background music  | There is an interesting music while the player is playing. The player can choose to shut it down. |
+| Game music        | There will be some sound effect while playing, such as the sound that the "snake" eats the "food". It can be shut down. |
+| Operating habbits | The player can choose the operate  the roulette on the left hand or on the right hand. |
 
